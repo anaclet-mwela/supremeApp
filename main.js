@@ -108,3 +108,8 @@ function showPanel(){
   panel.style.transition = '0.5s'
   
 }
+
+let clear = document.querySelector('.btn-clear');
+clear.addEventListener('click', ()=>{
+  window.localStorage.clear();
+});
