@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css" type="" />
+</head>
+
+<body>
+  <header class="bg-danger text-white">
+    <btn class="add-btn btn-danger">+</btn>
+    <div class="total">
+      <h4>Total: R<span id="total">0.00</span></h4>
+    </div>
+  </header>
+  
+  <!-- Data entry pannel -->
+  <div class="card" id="panel">
+    <h4 class="text-center text-primary">Add Trip
+    </h4>
+     <input class="form-control" type="number" id="delFees" placeholder="Deliver fees" />
+     <br />
+     <input class="form-control" type="number" id="tips" placeholder="Tips" />
+     <br />
+     <button id="btn_submit" class="btn btn-primary">Add Trip</button> <br />
+     <button class="btn btn-danger" id="btn-cancel">Cancel</button>
+    
+  </div>
+  
+  <div class="container text-center">
+   
+    <div class="result text-left">
+      <h5 class="text-danger">Trips List</h5>
+      <div id="trips"></div>
+    </div>
+  </div>
+  <footer class="bg-danger text-center text-white">
+    &copy;2020 with <3 by Anaclet Mwela </footer>
+      <!-- Project -->
+      <script src="main.js"></script>
+</body>
+
+</html>

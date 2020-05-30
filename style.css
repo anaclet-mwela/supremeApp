@@ -1,0 +1,64 @@
+body {
+    font-size: 15pt;
+    background-image: linear-gradient(#ffffff, #efefef);
+    min-height: 100vh;
+}
+
+header{
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.add-btn{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1;
+  box-shadow: 0px 0px 5px #000000;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 9999;
+  opacity: .8;
+}
+.total{
+  flex: 1;
+  text-align: right;
+}
+.card{
+  font-size: .7em;
+  padding: 10px 10px 0 10px;
+  margin-top: 10px;
+}
+#panel{
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  top: 90px;
+  left: 5%;
+  z-index: 99;
+  visibility: hidden;
+  background-image: linear-gradient(#ffffff, #efefef);
+  box-shadow: 0 0 10px #000000;
+  padding: 20px;
+}
+footer{
+  font-size: .6em;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.result{
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
