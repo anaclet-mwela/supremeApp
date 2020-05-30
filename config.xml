@@ -16,5 +16,8 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       Anaclet Mwela
   </author>
+	
+  <icon src="icon.png" />
+
 
 </widget>
